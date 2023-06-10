@@ -21,3 +21,18 @@ git checkout <nome da branch>: Muda de branch/ramo
 git merge <nome da branch>: junta para ver os conflitos entre as branch
 
 gitk: mostra as alterações
+
+Erros:
+
+remote: error: GH007: Your push would publish a private email address.
+remote: You can make your email public or disable this protection by visiting:
+remote: http://github.com/settings/emails
+To https://github.com/Carrha/doc_gith.git
+ ! [remote rejected] main -> main (push declined due to email privacy restrictions)
+
+resolução
+Go to Setting your commit email address.
+Follow the Setting your email address for every repository on your computer.
+Open your GitHub account, and go to Settings → Emails.
+Select the Keep my email address private check box.
+Unselect the Block command line pushes that expose my email check box.
